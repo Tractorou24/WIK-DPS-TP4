@@ -27,3 +27,12 @@ Using the file v3.yaml:
 kubectl create -f .\v3.yaml
 ```
 Add cppisthebest.com to /etc/hosts with the given ip and go to http://cppisthebest.com/ping and you should see the api response.
+
+## Bonus
+
+Go into the bonus folder and run the following commands:
+```bash
+kubectl apply -k .
+```
+
+On windows, run `minikube service wordpress --url` and go to the specified utl in your browser.
